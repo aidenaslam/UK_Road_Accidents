@@ -1,7 +1,7 @@
 # Analysis of UK Road Accidents 2005-2015
 
 The aim of this project is to analyse road accidents that have occurred in the UK in the period between 2005-2015 to help the government improve road safety. The collected data
-was obtained from the UK government website [1] which includes incidences that are reported to the police and recorded using the STATS19 accident reporting form. The dataset consists of 32 attributes and 1.78 million rows and the analysis was performed using R. This project utilised recurrent neural networks (RNN) and k-means clustering to predict the number of road accidents and help identify the areas of improvement needed in road safety in the UK.
+was obtained from the UK government website [1] which includes incidences that are reported to the police and recorded using the STATS19 accident reporting form. The dataset consists of 32 attributes and 1.78 million rows and the analysis was performed using R. This project utilised recurrent neural networks (RNN) and k-means clustering to predict the number of road accidents and help identify the areas of improvement needed in road safety in the UK. All of the code and raw dataset can be found in the uploaded zip file.
 
 ## Exploratory Data Analysis (EDA)
 * The overall number of accidents has reduced from 2005-2015 however, the number of serious or fatal accidents has plateaued  over the last few years. 
