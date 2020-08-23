@@ -20,7 +20,7 @@ was obtained from the UK government website [1] which includes incidences that a
 * Due to limited computing resources, the dataset for the clustering analysis was filtered for severe or fatal accidents in London. The dataset was prepared by scaling the numerical features using normalisation and implementing one-hot-encoding for the categorical features. To reduce dimensionality, Pearson's correlation coefficient was used to remove  features with correlation greater than 0.9.
 
 ## Modelling Results
-* The basline model for the RNN was a multi-layer perceptron with 2 hidden layers which produced an RMSE of 40.55, MAE of 31.34 and R<sup>2</sup> of 66.95%. Using trial and error, an RNN consisting of 25 hidden dimensions produced the best results, with an RMSE of 40.73, MAE of 31.06 and R<sup>2</sup> of 62.99%. Therefore, the basline model performed better.
+* The baseline model for the RNN was a multi-layer perceptron with 2 hidden layers which produced an RMSE of 40.55, MAE of 31.34 and R<sup>2</sup> of 66.95%. Using trial and error, an RNN consisting of 25 hidden dimensions produced the best results, with an RMSE of 40.73, MAE of 31.06 and R<sup>2</sup> of 62.99%. Therefore, the baseline model performed better.
 <img src="https://github.com/aidenaslam/UK_Road_Accidents/blob/master/Figure14.png" width="500" height="250" />
 <img src="https://github.com/aidenaslam/UK_Road_Accidents/blob/master/Figure15.png" width="500" height="250" />
 
